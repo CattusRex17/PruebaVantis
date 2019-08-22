@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b73-13-PB2">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginVC" customModule="PruebaVantis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduce la siguiente información " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjq-8Y-hIx">
+                                <rect key="frame" x="31" y="151" width="293" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EOB-dR-gFi">
+                                <rect key="frame" x="30" y="251" width="354" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BDb-xW-Zfs">
+                                <rect key="frame" x="30" y="315" width="354" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gP8-FB-Td5" customClass="RoundsButton" customModule="PruebaVantis" customModuleProvider="target">
+                                <rect key="frame" x="157" y="566" width="100" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Kkf-bN-aES"/>
+                                    <constraint firstAttribute="height" constant="33" id="oKA-7n-EaX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Entrar">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zkz-N2-avl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wjq-8Y-hIx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="AcR-K3-nYS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EOB-dR-gFi" secondAttribute="trailing" constant="30" id="IzN-NV-1kt"/>
+                            <constraint firstItem="EOB-dR-gFi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="KfH-uV-bHV"/>
+                            <constraint firstItem="gP8-FB-Td5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="M7h-F2-W4n"/>
+                            <constraint firstItem="EOB-dR-gFi" firstAttribute="top" secondItem="Wjq-8Y-hIx" secondAttribute="bottom" constant="77" id="Qj5-RD-iqg"/>
+                            <constraint firstItem="BDb-xW-Zfs" firstAttribute="top" secondItem="EOB-dR-gFi" secondAttribute="bottom" constant="34" id="RIp-gS-kPR"/>
+                            <constraint firstItem="Wjq-8Y-hIx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="63" id="RdC-PB-RLa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BDb-xW-Zfs" secondAttribute="trailing" constant="30" id="hUG-Jx-L1I"/>
+                            <constraint firstItem="gP8-FB-Td5" firstAttribute="top" secondItem="BDb-xW-Zfs" secondAttribute="bottom" constant="221" id="iiv-Wm-9GZ"/>
+                            <constraint firstItem="BDb-xW-Zfs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="nHR-CO-CzM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wjq-8Y-hIx" secondAttribute="trailing" constant="90" id="za2-Mx-zD7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YCe-pq-u2N"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="EOB-dR-gFi" id="0uF-ba-8Ht"/>
+                        <outlet property="passwordTextField" destination="BDb-xW-Zfs" id="adj-3f-Fy2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.97101449275374" y="20.758928571428569"/>
+        </scene>
+        <!--ModulsVC-->
+        <scene sceneID="wC1-Fo-hdE">
+            <objects>
+                <viewController storyboardIdentifier="ModulsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QBZ-oE-RqU" customClass="ModulsVC" customModule="PruebaVantis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SGF-g5-dto">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Módulos de Información" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Erl-Wp-IZD">
+                                <rect key="frame" x="48" y="144" width="206" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zAv-F8-g6K" firstAttribute="trailing" secondItem="Erl-Wp-IZD" secondAttribute="trailing" constant="160" id="5YQ-Sp-Ewa"/>
+                            <constraint firstItem="Erl-Wp-IZD" firstAttribute="top" secondItem="zAv-F8-g6K" secondAttribute="top" constant="100" id="WLE-3C-V6N"/>
+                            <constraint firstItem="Erl-Wp-IZD" firstAttribute="leading" secondItem="zAv-F8-g6K" secondAttribute="leading" constant="48" id="zx3-R8-v96"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zAv-F8-g6K"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RzX-oh-TIt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1731.8840579710147" y="23.4375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="o0p-G5-QCX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b73-13-PB2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Eh0-FA-DRq">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RhR-K6-HZW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6J-V6-Y1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="21"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3629E79100C00E697A6329B7 /* Pods_PruebaVantis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD071D0B4E35F8792DA8765 /* Pods_PruebaVantis.framework */; };
+		C62716AD230F30AC0054A136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62716AC230F30AC0054A136 /* AppDelegate.swift */; };
+		C62716AF230F30AC0054A136 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62716AE230F30AC0054A136 /* LoginVC.swift */; };
+		C62716B2230F30AC0054A136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62716B0230F30AC0054A136 /* Main.storyboard */; };
+		C62716B4230F30AE0054A136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62716B3230F30AE0054A136 /* Assets.xcassets */; };
+		C62716B7230F30AE0054A136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62716B5230F30AE0054A136 /* LaunchScreen.storyboard */; };
+		C62716C6230F327D0054A136 /* RoundsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62716C5230F327D0054A136 /* RoundsButton.swift */; };
+		C62716C9230F36530054A136 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62716C8230F36530054A136 /* Utils.swift */; };
+		C62716CB230F36610054A136 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62716CA230F36610054A136 /* Constants.swift */; };
+		C62716CF230F37CF0054A136 /* ModulsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62716CE230F37CF0054A136 /* ModulsVC.swift */; };
+		C62716D2230F38150054A136 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62716D1230F38150054A136 /* Structs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A9857C5B76E98C7202310FD /* Pods-PruebaVantis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaVantis.debug.xcconfig"; path = "Target Support Files/Pods-PruebaVantis/Pods-PruebaVantis.debug.xcconfig"; sourceTree = "<group>"; };
+		7416CA975DE415813B9E2058 /* Pods-PruebaVantis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaVantis.release.xcconfig"; path = "Target Support Files/Pods-PruebaVantis/Pods-PruebaVantis.release.xcconfig"; sourceTree = "<group>"; };
+		8AD071D0B4E35F8792DA8765 /* Pods_PruebaVantis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaVantis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62716A9230F30AC0054A136 /* PruebaVantis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaVantis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62716AC230F30AC0054A136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C62716AE230F30AC0054A136 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C62716B1230F30AC0054A136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C62716B3230F30AE0054A136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C62716B6230F30AE0054A136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C62716B8230F30AE0054A136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62716C5230F327D0054A136 /* RoundsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsButton.swift; sourceTree = "<group>"; };
+		C62716C8230F36530054A136 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C62716CA230F36610054A136 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C62716CE230F37CF0054A136 /* ModulsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulsVC.swift; sourceTree = "<group>"; };
+		C62716D1230F38150054A136 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62716A6230F30AC0054A136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3629E79100C00E697A6329B7 /* Pods_PruebaVantis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAFFF7768BD0E531BAEC5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD071D0B4E35F8792DA8765 /* Pods_PruebaVantis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A84DDDB5EDDF107124379A76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A9857C5B76E98C7202310FD /* Pods-PruebaVantis.debug.xcconfig */,
+				7416CA975DE415813B9E2058 /* Pods-PruebaVantis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C62716A0230F30AC0054A136 = {
+			isa = PBXGroup;
+			children = (
+				C62716AB230F30AC0054A136 /* PruebaVantis */,
+				C62716AA230F30AC0054A136 /* Products */,
+				A84DDDB5EDDF107124379A76 /* Pods */,
+				7FAFFF7768BD0E531BAEC5B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C62716AA230F30AC0054A136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62716A9230F30AC0054A136 /* PruebaVantis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62716AB230F30AC0054A136 /* PruebaVantis */ = {
+			isa = PBXGroup;
+			children = (
+				C62716D0230F38060054A136 /* Network */,
+				C62716C7230F36480054A136 /* Utils */,
+				C62716C2230F32500054A136 /* Controller */,
+				C62716BE230F31FE0054A136 /* UI */,
+				C62716AC230F30AC0054A136 /* AppDelegate.swift */,
+				C62716B8230F30AE0054A136 /* Info.plist */,
+			);
+			path = PruebaVantis;
+			sourceTree = "<group>";
+		};
+		C62716BE230F31FE0054A136 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C62716C4230F32620054A136 /* Components */,
+				C62716C1230F32310054A136 /* Storyboard */,
+				C62716C0230F320F0054A136 /* LaunchScreen */,
+				C62716BF230F32030054A136 /* Assets */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C62716BF230F32030054A136 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C62716B3230F30AE0054A136 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C62716C0230F320F0054A136 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C62716B5230F30AE0054A136 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		C62716C1230F32310054A136 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C62716B0230F30AC0054A136 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C62716C2230F32500054A136 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C62716C3230F32580054A136 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C62716C3230F32580054A136 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C62716AE230F30AC0054A136 /* LoginVC.swift */,
+				C62716CE230F37CF0054A136 /* ModulsVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C62716C4230F32620054A136 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C62716C5230F327D0054A136 /* RoundsButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C62716C7230F36480054A136 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C62716C8230F36530054A136 /* Utils.swift */,
+				C62716CA230F36610054A136 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C62716D0230F38060054A136 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C62716D1230F38150054A136 /* Structs.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C62716A8230F30AC0054A136 /* PruebaVantis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62716BB230F30AE0054A136 /* Build configuration list for PBXNativeTarget "PruebaVantis" */;
+			buildPhases = (
+				900AE75E580389F71EA8F4D1 /* [CP] Check Pods Manifest.lock */,
+				C62716A5230F30AC0054A136 /* Sources */,
+				C62716A6230F30AC0054A136 /* Frameworks */,
+				C62716A7230F30AC0054A136 /* Resources */,
+				9C27EB13ACA28CEB48C1BD0F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PruebaVantis;
+			productName = PruebaVantis;
+			productReference = C62716A9230F30AC0054A136 /* PruebaVantis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62716A1230F30AC0054A136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mauricio Rodriguez";
+				TargetAttributes = {
+					C62716A8230F30AC0054A136 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C62716A4230F30AC0054A136 /* Build configuration list for PBXProject "PruebaVantis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C62716A0230F30AC0054A136;
+			productRefGroup = C62716AA230F30AC0054A136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62716A8230F30AC0054A136 /* PruebaVantis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C62716A7230F30AC0054A136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62716B7230F30AE0054A136 /* LaunchScreen.storyboard in Resources */,
+				C62716B4230F30AE0054A136 /* Assets.xcassets in Resources */,
+				C62716B2230F30AC0054A136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		900AE75E580389F71EA8F4D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaVantis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C27EB13ACA28CEB48C1BD0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaVantis/Pods-PruebaVantis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaVantis/Pods-PruebaVantis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PruebaVantis/Pods-PruebaVantis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62716A5230F30AC0054A136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62716CB230F36610054A136 /* Constants.swift in Sources */,
+				C62716AF230F30AC0054A136 /* LoginVC.swift in Sources */,
+				C62716C6230F327D0054A136 /* RoundsButton.swift in Sources */,
+				C62716D2230F38150054A136 /* Structs.swift in Sources */,
+				C62716AD230F30AC0054A136 /* AppDelegate.swift in Sources */,
+				C62716CF230F37CF0054A136 /* ModulsVC.swift in Sources */,
+				C62716C9230F36530054A136 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C62716B0230F30AC0054A136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62716B1230F30AC0054A136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C62716B5230F30AE0054A136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62716B6230F30AE0054A136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C62716B9230F30AE0054A136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C62716BA230F30AE0054A136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C62716BC230F30AE0054A136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9857C5B76E98C7202310FD /* Pods-PruebaVantis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NNFUU3JHZ2;
+				INFOPLIST_FILE = PruebaVantis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = escom.PruebaVantis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C62716BD230F30AE0054A136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7416CA975DE415813B9E2058 /* Pods-PruebaVantis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NNFUU3JHZ2;
+				INFOPLIST_FILE = PruebaVantis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = escom.PruebaVantis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62716A4230F30AC0054A136 /* Build configuration list for PBXProject "PruebaVantis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62716B9230F30AE0054A136 /* Debug */,
+				C62716BA230F30AE0054A136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62716BB230F30AE0054A136 /* Build configuration list for PBXNativeTarget "PruebaVantis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62716BC230F30AE0054A136 /* Debug */,
+				C62716BD230F30AE0054A136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62716A1230F30AC0054A136 /* Project object */;
+}
